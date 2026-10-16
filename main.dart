@@ -11,14 +11,14 @@ void main() {
     7,
   );
 
-  if (william.salary >= 4000) {
+  if (keweil.salary >= 4000) {
     extraPayPerHr = 10;
   } else {
     extraPayPerHr = 20;
   }
 
-  double total = william.salary +
-      (william.overtimeHr * extraPayPerHr);
+  double total = keweil.salary +
+      (keweil.overtimeHr * extraPayPerHr);
 
   print('Total Salary = \$$total USD');
 }
